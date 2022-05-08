@@ -1,0 +1,16 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    min-height: 27px;
+    height: auto;
+    margin: 50px 0 0 40px;
+    font-size: 18px;
+    padding: 5px;
+  }
+  .btnProfile button{
+    margin-top: 10px;
+    color:#ffff;
+  }
+  

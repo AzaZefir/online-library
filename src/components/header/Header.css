@@ -1,0 +1,17 @@
+.headerLinks{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: 	#008080;
+    font-size: 15px;
+    font-weight: 700;
+}
+.headerLinks a{
+    text-decoration: none;
+    color: #ffff;
+}
+.headerLinks img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

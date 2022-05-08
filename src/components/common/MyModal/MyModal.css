@@ -1,0 +1,41 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    /* z-index: 1; */
+    overflow: auto;
+  }
+  
+  .myModalContent {
+    position: relative;
+    padding: 30px;
+    background: #ffff;
+    border-radius: 43px;
+    min-width: 35%;
+    width: 300px;
+    height: 400px;
+  }
+  .myModalContent img {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 512px) {
+    .myModalContent {
+      width: 65%;
+      height: 350px;
+    }
+  }
+  
